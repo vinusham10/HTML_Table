@@ -1,55 +1,91 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 body{
-    background-color: rgb(249, 224, 229);
-    display: flex;
-    justify-content: center;
-    align-self: center;
-   
-}
-th{
-    background-color: rgb(185, 70, 70);
-    color: white;
-    padding: 15px;
-    
-    
-}
-table{
-    align-self: center;
-    align-items: center;
-}
-table{
-    width: 950px;
-    
-    box-shadow:3px 4px 5px 5px rgb(168, 167, 167);
-    align-self:center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    display: grid;
+    background-color: rgb(251, 227, 225);
+  }
+  table{
+   margin-right: auto;
+   margin-left: auto;
+   text-align: center;
+   box-shadow: 2px 2px 2px 3px rgb(189, 188, 188);
+   border-bottom: 2px solid red ;
+   width: 700px;
+  }
+  tr{
+    border-bottom: 1px solid rgb(203, 202, 202);
+  }
+  th{
+    background-color: rgb(212, 56, 56);
+    text-align: center;
+    padding: 10px;
     border-collapse: collapse;
-}
-td{
-    padding: 15px;
-}
-tr:nth-child(odd)
-{
-    background-color:rgb(236, 235, 235);
-}
-tr:nth-child(even)
-{
-    background-color:rgb(255, 255, 255);
-}
-caption{
-    padding-bottom: 15px;
-}
-#Kalvi{
-    width: 250px;
-    padding-bottom: 600px;
-    padding-left: 100px;
-}
-
-.vinusha{
-    justify-content: center;
-}
-
+    border-color: red;
+    color: white;
+  }
+  
+  table,td{
+   border-collapse: collapse;
+   padding: 20px;
+   }
+  
+  td, th{
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+  }
+ 
+  tr:nth-of-type(even){
+    background-color: white;
+  }
+  tr:nth-of-type(odd){
+    background-color: rgb(232, 231, 231) ;
+  }
+  caption{
+    padding-bottom: 10px;
+    font-size: larger;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .Kalvium{
+    justify-content: flex-end;
+    width:240px;
+    padding-top:2px;
+    padding-bottom: 50px;
+    padding-left: 140px;
+  }
+  .Profile{
+    position: absolute;
+    top: 2px;
+    right: 20px;
+    width: 70px;
+    margin-top: 50px;
+    padding-right: 25%;
+  }
+  
+  #lunch{
+    font-family: 'Raleway', sans-serif;
+    font-size: larger;
+  }
+  .student{
+    padding-right: 19%;
+    position: absolute;
+    top: 2px;
+    right: 20px;
+    margin-top: 70px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: rgb(220, 58, 58);
+  }
+  .courses{
+    padding-right: 10%;
+    position: absolute;
+    top: 2px;
+    right: 50px;
+    margin-top: 70px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: rgb(220, 58, 58);
+  }
+  
+  
 
